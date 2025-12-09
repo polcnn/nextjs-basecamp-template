@@ -118,7 +118,7 @@ npm start
 
 ### Environment Variables
 
-Create a `.env.local` file in the root directory and add your environment variables:
+Create a `.env` file in the root directory and add your environment variables:
 
 ```env
 # API Configuration
