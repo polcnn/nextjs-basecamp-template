@@ -116,6 +116,21 @@ Start the production server:
 npm start
 ```
 
+### Environment Variables
+
+Create a `.env.local` file in the root directory and add your environment variables:
+
+```env
+# API Configuration
+NEXT_PUBLIC_ENDPOINT_API_URL=http://localhost:3001/api
+API_SECRET_KEY=your_secret_key_here
+
+# Other variables
+NEXT_PUBLIC_APP_NAME=My App
+```
+
+> Note: Variables prefixed with `NEXT_PUBLIC_` are exposed to the browser. Keep sensitive keys in non-public variables.
+
 ### Linting
 
 Run ESLint to check code quality:
